@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Explorer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quote Explorer</h1>
+
+      <div class="quote-container">
+        <div id="quote-text" class="quote-text loading">
+          Loading your first quote...
+        </div>
+        <div id="quote-author" class="quote-author"></div>
+      </div>
+
+      <div id="error-container" class="error" style="display: none">
+        <div id="error-message"></div>
+      </div>
+
+      <div id="success-message" class="success-message">
+        Quote copied to clipboard!
+      </div>
+
+      <div class="button-container">
+        <button id="new-quote-btn">New Quote</button>
+        <button id="copy-quote-btn">Copy Quote</button>
+        <button id="retry-btn" style="display: none">Retry</button>
+      </div>
+
+      <div class="search-container">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search quotes by keyword (e.g., life, success, coding)"
+        />
+        <button id="search-btn">Search</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

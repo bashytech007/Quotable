@@ -1,0 +1,16 @@
+{
+     "name": "quote-explorer",
+     "version": "1.0.0",
+     "description": "A simple quote explorer app",
+     "main": "index.html",
+     "scripts": {
+       "test": "npx cypress open",
+       "test:headless": "npx cypress run"
+     },
+     "keywords": [],
+     "author": "",
+     "license": "ISC",
+     "devDependencies": {
+       "cypress": "^15.2.0"
+     }
+   }
